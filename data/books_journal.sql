@@ -50,3 +50,6 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2020-11-06 21:01:31
+
+INSERT INTO `books_journal` (`journal_id`, `isbn`, `action_type`, `action_time`) VALUES (1, '1', 'create', '2022-05-17 16:58:55');
+INSERT INTO `books_journal` (`journal_id`, `isbn`, `action_type`, `action_time`) VALUES (2, '2', 'update', '2022-05-17 16:59:11');
